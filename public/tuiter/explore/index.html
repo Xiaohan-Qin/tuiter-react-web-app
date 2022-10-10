@@ -102,7 +102,7 @@
       <div class="container">
           <div class="row">
           <!-- side bars -->
-              <div class="col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2 wd-side-bar pt-2">
+              <div class="col-sm-2 col-md-2 col-lg-1 col-xl-2 wd-side-bar pt-2">
                   <div class="list-group mb-3">
                       <a href="#" class="list-group-item list-group-item-action">
                           <i class="fa-solid fa-t fa-2x"></i></a>
@@ -135,13 +135,13 @@
               </div>
 
           <!-- main content -->
-              <div class="col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6 mb-2 wd-main-content pt-2">
+              <div class="col-sm-10 col-md-10 col-lg-7 col-xl-6 mb-2 wd-main-content pt-2">
                   <!-- search bar -->
                   <div class="row">
                       <div class="col-10 ms-3">
                           <div class="position-relative wd-search-bar">
+                              <i class="fas fa-search position-absolute wd-search-icon text-secondary"></i></span>
                               <input class="ps-5 form-control rounded-pill" placeholder="Search Tuiter"/>
-                              <span class="position-absolute wd-search-tuiter text-secondary"><i class="fas fa-search"></i></span>
                           </div>
                       </div>
                       <div class="col-1 ps-0 m-auto">
@@ -151,9 +151,9 @@
                   <!-- nav tabs -->
                   <ul class="nav nav-tabs pt-3">
                       <li class="nav-item">
-                          <a href="#" class="nav-link nav-selected-tab">For you</a></li>
+                          <a href="#" class="nav-link">For you</a></li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link">Trending</a></li>
+                          <a href="#" class="nav-link nav-selected-tab">Trending</a></li>
                       <li class="nav-item">
                           <a href="#" class="nav-link">News</a></li>
                       <li class="nav-item">
@@ -164,7 +164,7 @@
                   <!-- center image -->
                   <div class="position-relative">
                       <img class="wd-center-image" src="./images/house-music.webp" width="100%"/>
-                      <div class="position-absolute bottom-0 left-0 text-white">
+                      <div class="position-absolute wd-center-image-words text-white">
                         <div>Music • Last Night</div>
                         <h2>The unsung legends of house music</h2>
                       </div>
@@ -176,7 +176,7 @@
                               <div class="col-9">
                                   <div class="text-secondary">Cooking</div>
                                   <div class="fw-bold">Eric Kim
-                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
                                     <span class="text-secondary fw-normal"> Today </span></div>
                                   <div class="fw-bold">Brown-Butter Ravioli With Butternut Squash</div>
                                   <div class="text-secondary">804 Tweets</div>
@@ -192,7 +192,7 @@
                               <div class="col-9">
                                   <div class="text-secondary">Art & Design</div>
                                   <div class="fw-bold">Adam Nagourney
-                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
                                     <span class="text-secondary fw-normal"> 1d ago</span></div>
                                   <div class="fw-bold">Joan Didion and the Western Spirit</div>
                                   <div class="text-secondary">1.3K Tweets</div>
@@ -222,7 +222,7 @@
                               <div class="col-9">
                                   <div class="text-secondary">Travel</div>
                                   <div class="fw-bold">Nora Walsh
-                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
                                     <span class="text-secondary fw-normal"> 15h ago</span></div>
                                   <div class="text-secondary">23.7K Tweets</div>
                               </div>
@@ -235,7 +235,7 @@
               </div>
 
               <!-- Follow -->
-              <div class="col-lg-4 col-xl-4 col-xxl-4 d-none d-lg-block pt-3">
+              <div class="col-lg-4 col-xl-4 d-none d-lg-block pt-3">
                   <ul class="list-group wd-follow">
                       <li class="list-group-item fw-bold fs-5">Who to follow</li>
 
@@ -245,10 +245,8 @@
                                   <img class="rounded-circle" src="./images/coldplay.jpg" />
                               </div>
                               <div class="col-7">
-                                  <div class="fw-bold">
-                                      Coldplay <i class="fas fa-check-circle"></i></div>
-                                  <div class="wd-following-id">
-                                      @coldplay</div>
+                                  <div class="fw-bold">Coldplay <i class="fa fa-check-circle"></i></div>
+                                  <div class="wd-user-id">@coldplay</div>
                               </div>
                               <div class="col-3">
                                   <button class="btn btn-light rounded-pill float-end">Follow</button>
@@ -262,10 +260,8 @@
                                   <img class="rounded-circle" src="./images/rihanna.jpg" />
                               </div>
                               <div class="col-7">
-                                  <div class="fw-bold">
-                                      Rihanna <i class="fas fa-check-circle"></i></div>
-                                  <div class="wd-following-id">
-                                      @Rihanna</div>
+                                  <div class="fw-bold">Rihanna <i class="fa fa-check-circle"></i></div>
+                                  <div class="wd-user-id">@Rihanna</div>
                               </div>
                               <div class="col-3">
                                   <button class="btn btn-light rounded-pill float-end">Follow</button>
@@ -280,11 +276,8 @@
                               </div>
                               <div class="col-7">
                                   <div class="fw-bold">
-                                      Joma Tech <i class="fas fa-check-circle"></i>
-                                  </div>
-                                  <div class="wd-following-id">
-                                      @Joma-tech
-                                  </div>
+                                      Joma Tech <i class="fa fa-check-circle"></i></div>
+                                  <div class="wd-user-id">@Joma-tech</div>
                               </div>
                               <div class="col-3">
                                   <button class="btn btn-light rounded-pill float-end">Follow</button>

@@ -153,8 +153,8 @@ body {
   border: none;
 }
 
-.wd-search-tuiter {
-  bottom: 7px;
+.wd-search-icon {
+  bottom: 10px;
   left: 10px;
 }
 
@@ -183,9 +183,10 @@ body {
   border-bottom: 1px solid rgb(110, 118, 125);
 }
 
-/*.wd-post {*/
-/*  background-color: black;*/
-/*}*/
+.wd-center-image-words {
+  bottom: 0;
+  left: 10px;
+}
 
 .wd-post img {
   width: 100%;
@@ -196,7 +197,7 @@ body {
   background-color: rgb(47, 51, 54);
 }
 
-.wd-follow .wd-following-id {
+.wd-follow .wd-user-id {
   color: rgb(110, 118, 125);
 }
 
