@@ -1,7 +1,7 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
 import WhoToFollowList from "../WhoToFollowList/index.js";
 import PostList from "../PostList/index.js";
-import PostSummaryList from "../PostSummaryList";
+import PostSummaryList from "../PostSummaryList/index.js";
 
 function homeComponent() {
   $("#wd-home").append(`
