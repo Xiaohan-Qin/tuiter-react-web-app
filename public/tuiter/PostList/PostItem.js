@@ -5,11 +5,11 @@ const PostItem = (post) => {
         <li class="list-group-item bg-black">
             <div class="row">
                 <div class="col-1">
-                    <img class="rounded-circle" src=${avatar} width="50px" height="50px"/>
+                    <img class="rounded-circle mt-1" src=${avatar} width="50px" height="50px"/>
                 </div>
                 
                 <div class="col-11 ps-4">
-                    <div class="row">
+                    <div class="row mt-1">
                       <div class="col-11 fw-bolder">
                         ${username} <i class="fas fa-check-circle"></i>
                          <span class="text-secondary fw-normal">@${handle} - ${time}</span></div>
