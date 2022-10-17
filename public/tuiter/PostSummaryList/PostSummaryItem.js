@@ -21,5 +21,4 @@ const PostSummaryItem = (post) => {
         </li>
     `)
 }
-
 export default PostSummaryItem;

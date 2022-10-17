@@ -16,20 +16,15 @@ const ExploreComponent = () => {
            
            <ul class="nav my-2 nav-tabs">
                <li class="nav-item">
-                  <a class="nav-link bg-primary" aria-current="page" href="#">For you</a>
-                </li>
+                  <a class="nav-link bg-primary" aria-current="page" href="#">For you</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Trending</a>
-                </li>
+                  <a class="nav-link" href="#">Trending</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">News</a>
-                </li>
+                  <a class="nav-link" href="#">News</a></li>
                 <li class="nav-item">
-                  <a class="nav-link">Sports</a>
-                </li>
+                  <a class="nav-link" href="#">Sports</a></li>
                 <li class="nav-item">
-                  <a class="nav-link d-none d-md-block">Entertainment</a>
-                </li>
+                  <a class="nav-link d-none d-md-block" href="#">Entertainment</a></li>
            </ul>
            
            <div class="position-relative">

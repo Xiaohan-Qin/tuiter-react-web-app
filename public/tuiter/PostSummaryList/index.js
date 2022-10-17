@@ -10,5 +10,4 @@ const PostSummaryList = () => {
         </ul>
     `)
 }
-
 export default PostSummaryList;

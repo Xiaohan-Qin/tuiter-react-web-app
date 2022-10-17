@@ -31,5 +31,4 @@ const NavigationSidebar = (active) => {
             <a class="btn btn-primary btn-block rounded-pill" href="tweet.html">Tuit</a></div>
     `);
 };
-
 export default NavigationSidebar;
