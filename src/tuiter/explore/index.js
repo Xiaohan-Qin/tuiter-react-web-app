@@ -9,8 +9,8 @@ const ExploreComponent = () => {
       <>
         <div className="row">
           <div className="col-11 position-relative">
-            <input placeholder="Search Tuiter" className="form-control rounded-pill ps-5" />
-            <i className="bi bi-search position-absolute wd-nudge-up"/>
+            <input placeholder="Search Tuiter" className="form-control rounded-pill ps-5 mb-2" />
+            <i className="bi bi-search position-absolute bottom-0 mb-3 h-50 ms-3 text-secondary"/>
           </div>
 
           <div className="col-1">
@@ -20,13 +20,13 @@ const ExploreComponent = () => {
 
         <ul className="nav nav-pills mb-2">
           <li className="nav-item">
-            <a className="nav-link active">For You</a>
+            <a href="#" className="nav-link active">For You</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link">Trending</a>
+            <a href="#" className="nav-link">Trending</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link">News</a>
+            <a href="#" className="nav-link">News</a>
           </li>
         </ul>
 

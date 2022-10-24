@@ -1,17 +1,6 @@
-
 import React from "react";
 
-const PostSummaryItem = (
-    {
-      post = {
-        "topic": "Space",
-        "userName": "SpaceX",
-        "time": "2h",
-        "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-        "image": "tesla.png"
-      }
-    }
-) => {
+const PostSummaryItem = ({ post }) => {
   return (
       <li className="list-group-item">
         <div className="row">
@@ -23,8 +12,8 @@ const PostSummaryItem = (
             <div className="fw-bold">{post.title}</div>
             {post.tweets ? <div className="text-secondary">{post.tweets} Tweets</div> : ""}
           </div>
-          <div className="col-2 my-auto">
-            <img width={70} className="float-end rounded-3" src={post.image}/>
+          <div className="col-3 col-md-2 py-2 align-self-center">
+            <img src={post.image} className="img-fluid rounded-3 float-end" />
           </div>
         </div>
       </li>
