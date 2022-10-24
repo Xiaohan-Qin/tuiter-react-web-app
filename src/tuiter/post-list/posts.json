@@ -1,33 +1,33 @@
 [
   {
     "_id": 1,
-    "username": "Elon Musk",
-    "handle": "elonmusk",
-    "avatar": "https://mushucdn.b-cdn.net/tesla-logo.png",
-    "time": "23h",
-    "message": "Amazing show about @Inspiration4x mission!",
-    "image": "inspiration4x.jpeg",
-    "title": "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
-    "body": "Tesla Cybertruck lands on Mars and picks up trhe Curiosity rover on its 6' bed",
-    "link": "netflix.com",
+    "username": "Coldplay",
+    "handle": "coldplay_official",
+    "avatar": "https://i1.sndcdn.com/artworks-bb4dcc29-38fd-4cf8-ab3a-ea57127bbd28-0-t240x240.jpg",
+    "time": "15h",
+    "message": "Come and join us. Show is on OCT 28 / 29 ⚡",
+    "image": "https://mb.cision.com/Public/16699/3560734/a71843662ff4b133_800x800ar.jpg",
+    "title": "Coldplay Worldwide Tour",
+    "body": "LIVE BROADCAST from BUENOS AIRES in cinemas worldwide - coldplaycinema.live (link in bio) #coldplay #yellow #coldplaylivebroadcast",
+    "link": "coldplay.com",
     "comment": "4.2K",
     "retweet": "3.5K",
     "like": "37.5K"
   },
   {
     "_id": 2,
-    "username": "New York Post",
-    "handle": "nypost",
-    "avatar": "newyorkpost_avatar.jpg",
+    "username": "Taylor Swift",
+    "handle": "taylorswift_official",
+    "avatar": "https://pbs.twimg.com/media/FfoDxUNXwAAFNLc.jpg",
     "time": "23h",
-    "message": "Grimes seen reading Karl Marax following split with world's richest man Elon Musk trib.al/nx2Gfaq",
-    "image": "karlmarx.webp",
+    "message": "Midnights is official now!",
+    "image": "https://cdn.shopify.com/s/files/1/0011/4651/9637/t/221/assets/share_grande.png?v=121573980736463163171666582885",
     "title": "",
-    "body": "",
+    "body": "There were other songs we wrote on our journey to find that magic 13. I’m calling them 3am tracks. Lately I’ve been loving the feeling of sharing more of our creative process with you, like we do with From The Vault tracks. So it’s 3am and I’m giving them to you now. \uD83C\uDF0C",
     "link": "",
-    "comment": "965",
-    "retweet": "2.4K",
-    "like": "4K"
+    "comment": "304K",
+    "retweet": "121K",
+    "like": "690K"
   }
 
 ]

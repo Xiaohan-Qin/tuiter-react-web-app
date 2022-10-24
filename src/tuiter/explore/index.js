@@ -20,13 +20,16 @@ const ExploreComponent = () => {
 
         <ul className="nav nav-pills mb-2">
           <li className="nav-item">
-            <a href="for-you.html" className="nav-link active">For You</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a href="#" className="nav-link active">For You</a>
           </li>
           <li className="nav-item">
-            <a href="trending.html" className="nav-link">Trending</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a href="#" className="nav-link">Trending</a>
           </li>
           <li className="nav-item">
-            <a href="news.html" className="nav-link">News</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a href="#" className="nav-link">News</a>
           </li>
         </ul>
 
