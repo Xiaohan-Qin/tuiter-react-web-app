@@ -13,7 +13,7 @@ const PostSummaryItem = ({ post }) => {
             {post.tweets ? <div className="text-secondary">{post.tweets} Tweets</div> : ""}
           </div>
           <div className="col-3 col-md-2 py-2 align-self-center">
-            <img src={post.image} className="img-fluid rounded-3 float-end" />
+            <img src={post.image} className="img-fluid rounded-3 float-end"  alt="post"/>
           </div>
         </div>
       </li>

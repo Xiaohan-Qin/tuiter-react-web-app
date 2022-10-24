@@ -20,20 +20,20 @@ const ExploreComponent = () => {
 
         <ul className="nav nav-pills mb-2">
           <li className="nav-item">
-            <a href="#" className="nav-link active">For You</a>
+            <a href="for-you.html" className="nav-link active">For You</a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">Trending</a>
+            <a href="trending.html" className="nav-link">Trending</a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">News</a>
+            <a href="news.html" className="nav-link">News</a>
           </li>
         </ul>
 
         <div className="position-relative mb-2">
           <img
               src="https://mushucdn.b-cdn.net/Starship-Mk1-Day.webp"
-              className="img-fluid mt-2 rounded-4"/>
+              className="img-fluid mt-2 rounded-4" alt="SpaceX starship"/>
           <div className="position-absolute bottom-0 ms-2">
             <h2 className="fw-bold text-light">SpaceX Starship</h2>
           </div>
