@@ -1,0 +1,16 @@
+{
+  "_id": 1,
+  "firstName": "Xiaohan",
+  "lastName": "Qin",
+  "handle": "@xiaohanqin",
+  "profilePicture": "https://i.pinimg.com/originals/47/7c/8e/477c8e8efed581421dc1b854bad94bd8.jpg",
+  "bannerPicture": "https://images.unsplash.com/photo-1506765515384-028b60a970df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFubmVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+  "bio": "Graduate student in CS. Interested in arts, psychology and feminism.",
+  "website": "https://qinxia.sites.northeastern.edu",
+  "location": "Seattle, WA",
+  "dateOfBirth": "1998-01-04",
+  "dateJoined": "2020-04",
+  "followingCount": 588,
+  "followersCount": 173,
+  "tuits": 429
+}

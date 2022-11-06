@@ -44,10 +44,10 @@ const NavigationSidebar = () => {
             <span className="d-none d-xl-inline">Lists</span>
           </a>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a className={`list-group-item ${active === 'profile' ? 'active':''}`}>
+          <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile' ? 'active':''}`}>
             <i className="bi bi-person pe-2"/>
             <span className="d-none d-xl-inline">Profile</span>
-          </a>
+          </Link>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a className={`list-group-item ${active === 'more' ? 'active':''}`}>
             <i className="bi bi-three-dots pe-2"/>
