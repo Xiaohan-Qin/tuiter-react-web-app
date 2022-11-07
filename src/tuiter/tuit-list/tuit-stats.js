@@ -11,7 +11,7 @@ const TuitStats = ({tuit}) => {
         </div>
         <div className="col">
           {tuit.liked ?
-              <i className="bi bi-heart-fill text-danger pe-2"/> : <i className="bi bi-heart"/> }
+              <i className="bi bi-heart-fill text-danger pe-2"/> : <i className="bi bi-heart pe-2"/> }
           {tuit.likes}
         </div>
         <div className="col">
