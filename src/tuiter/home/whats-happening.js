@@ -17,7 +17,7 @@ const WhatsHappening = () => {
           <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"
               width={60}
-              alt="nasa_logo"/>
+              alt="user_avatar"/>
         </div>
 
         <div className="col-10">
