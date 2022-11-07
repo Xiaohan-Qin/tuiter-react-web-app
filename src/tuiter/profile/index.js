@@ -19,8 +19,10 @@ const ProfileComponent = () => {
   return (
       <div className="bg-light rounded">
         <div className="row">
-          <div className="col-1 my-auto fs-4">
-            <i className="bi bi-arrow-left ps-3"/>
+          <div className="col-1 my-auto">
+            <Link to="/tuiter/home" className="col-1 fs-5 text-dark">
+              <i className="bi bi-arrow-left ps-3"/>
+            </Link>
           </div>
 
           <div className="col-11 ps-5">

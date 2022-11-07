@@ -57,7 +57,7 @@ const EditProfile = () => {
                width={100}
                alt="profile_picture"/>
         </div>
-        <br />
+        <br/>
 
         <div className="mt-5 px-3">
           <label htmlFor="name">Name</label><br/>
