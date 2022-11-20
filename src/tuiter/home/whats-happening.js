@@ -6,12 +6,21 @@ const WhatsHappening = () => {
   let [whatsHappening, setWhatsHappening] = useState('');
   const dispatch = useDispatch();
 
+  const currentUser = {
+    "username": "NASA",
+    "handle": "@nasa",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png",
+    "time": "2s"
+  };
+
   const tuitClickHandler = () => {
     const newTuit = {
+      ...currentUser,
       tuit: whatsHappening
     }
     dispatch(createTuitThunk(newTuit));
   }
+
   return (
       <div className="row">
         <div className="col-auto">
