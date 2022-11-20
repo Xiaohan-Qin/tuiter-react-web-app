@@ -5,6 +5,8 @@ import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 import TuitStats from "./tuit-stats";
 
+import "../index.css";
+
 const TuitItem = ({tuit}) => {
   const dispatch = useDispatch();
 
@@ -16,7 +18,7 @@ const TuitItem = ({tuit}) => {
       <li className="list-group-item">
         <div className="row">
           <div className="col-auto">
-            <img className="float-end rounded-circle" src={tuit.image} width={50} alt="user_avatar"/>
+            <img className="float-end rounded-circle custom-image" src={tuit.image} width={50} height={50} alt="user_avatar"/>
           </div>
 
           <div className="col-10">

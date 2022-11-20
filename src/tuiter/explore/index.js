@@ -35,10 +35,10 @@ const ExploreComponent = () => {
 
         <div className="position-relative mb-2">
           <img
-              src="https://mushucdn.b-cdn.net/Starship-Mk1-Day.webp"
-              className="img-fluid mt-2 rounded-4" alt="SpaceX starship"/>
+              src="https://ychef.files.bbci.co.uk/1600x900/p0dgs87y.webp"
+              className="img-fluid mt-2 rounded-4" alt="movie_poster"/>
           <div className="position-absolute bottom-0 ms-2">
-            <h2 className="fw-bold text-light">SpaceX Starship</h2>
+            <h2 className="fw-bold text-light">Is this 2023's big Oscar-winner?</h2>
           </div>
         </div>
         <PostSummaryList />
