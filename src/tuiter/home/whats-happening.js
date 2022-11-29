@@ -7,9 +7,9 @@ const WhatsHappening = () => {
   const dispatch = useDispatch();
 
   const currentUser = {
-    "username": "NASA",
-    "handle": "@nasa",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png",
+    "username": "Northeastern University",
+    "handle": "@northeastern_university",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/Northeastern_University_seal.svg",
     "time": "2s"
   };
 
@@ -23,10 +23,11 @@ const WhatsHappening = () => {
 
   return (
       <div className="row">
-        <div className="col-auto">
+        <div className="col-auto rounded-circle">
           <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"
+              src="https://upload.wikimedia.org/wikipedia/en/b/bd/Northeastern_University_seal.svg"
               width={60}
+              height={60}
               alt="user_avatar"/>
         </div>
 
